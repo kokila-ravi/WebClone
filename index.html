@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Session-Task</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- left side -->
+        <div class="leftSide">
+            <div class="header">
+                <div class="userimg">
+                    <img src="assets/flower.jfif" class="cover" />
+                </div>
+
+                <ul class="nav-icons">
+                    <li><i class="fa-solid fa-arrows-to-dot"></i></li>
+                    <li><i class="fa-solid fa-message"></i></li>
+                    <li><i class="fa-solid fa-bars"></i></li>
+
+
+                </ul>
+            </div>
+
+            <div class="search_chat">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass icon"></i>
+                    <input type="text" placeholder="Search your contact">
+
+                    
+                </div>
+            </div>
+            <!-- chat list -->
+            <div class="chatlist">
+                <div class="block active">
+                    <div class="imgbx">
+                        <img src="assets/king.jfif" class="cover">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>King</h4>
+                            <p class="time">08.21</p>
+                        </div>
+                        <div class="message_p">
+                            <p>where are you girl?</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="imgbx">
+                        <img src="assets/messy.jfif" class="cover">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Sharmi</h4>
+                            <p class="time">10.21</p>
+                        </div>
+                        <div class="message_p">
+                            <p>Do you think it’s going to rain today?</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="block ">
+                    <div class="imgbx">
+                        <img src="assets/download.jfif" class="cover">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Appa</h4>
+                            <p class="time" id="unread">9.21</p>
+                        </div>
+                        <div class="message_p">
+                            <p>I'm working on a new project. It's a little stressful, but I’m excited.</p>
+                            <b>1</b>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="block active">
+                    <div class="imgbx">
+                        <img src="assets/teddy.jfif" class="cover">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Amma</h4>
+                            <p class="time" id="unread">12.51</p>
+                        </div>
+                        <div class="message_p">
+                            <p>Have you seen the latest episode of that new show?</p>
+                            <b>5</b>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="block active">
+                    <div class="imgbx">
+                        <img src="assets/woody.jfif" class="cover">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Roomate</h4>
+                            <p class="time">6.21</p>
+                        </div>
+                        <div class="message_p">
+                            <p>Any good movie recommendations?</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="block active">
+                    <div class="imgbx">
+                        <img src="assets/burger.jfif" class="cover">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Frd 1</h4>
+                            <p class="time">7.21</p>
+                        </div>
+                        <div class="message_p">
+                            <p>hi.....</p>
+                            
+                        </div>
+
+                    </div>
+                </div>
+                <div class="block active">
+                    <div class="imgbx">
+                        <img src="assets/king.jfif" class="cover">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Frd 2</h4>
+                            <p class="time" id="unread">5.21</p>
+                        </div>
+                        <div class="message_p">
+                            <p>Are you free?</p>
+                            <b>3</b>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="block active">
+                    <div class="imgbx">
+                        <img src="assets/flower.jfif" class="cover">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Frd 3</h4>
+                            <p class="time">3.21</p>
+                        </div>
+                        <div class="message_p">
+                            <p>I'm the one who ate your biscuit</p>
+                        </div>
+
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        <!-- Right hand side -->
+        <div class="rightSide">
+            <div class="header">
+                <div class="imgText">
+                    <div class="userimg">
+                        <img src="assets/king.jfif" class="cover" />
+                    </div>
+                    <h4>King <br> <span>Online</span></h4>
+                </div>
+
+
+                <ul class="nav-icons">
+                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li><i class="fa-solid fa-bars"></i></li>
+
+                </ul>
+            </div>
+            <!-- chatbox -->
+            <div class="chatBox">
+                <div class="message my_message">
+                    <p>Hi <br><span>12.15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Where are you girl?<br><span>12.15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Hello <br><span>12.15</span></p>
+                </div>
+
+
+            </div>
+            <!-- chat input -->
+            <div class="chatbox_input">
+                <i class="fa-regular fa-face-smile "></i>
+                <i class="fa-solid fa-paperclip "></i>
+                <input type="text" placeholder="Type a message...">
+                <i class="fa-solid fa-paper-plane" id="send"></i>
+                <i class="fa-solid fa-microphone "></i>
+            </div>
+
+        </div>
+
+
+
+    </div>
+</body>
+<script src="javaScript.js"></script>
+
+
+
+</html>
